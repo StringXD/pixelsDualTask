@@ -290,7 +290,7 @@ def parseDualTaskEvents(events):
 
             lastCue = cue
             lastTS = cueTS
-            print(np.round((DPATestTS - DPASampleTS) / s1s, decimals=3) - 1)
+            #print(np.round((DPATestTS - DPASampleTS) / s1s, decimals=3) - 1)
             #and cueTS < lastTS + 15 * s1s
         elif cue > 2 and cue < 16 and cueTS > lastTS + 10 * s1s:
             if DPASample > 0 and DPATest > 0:
